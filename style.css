@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pexels-thorsten-technoman-338504.jpg);    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;  
+    position: relative; 
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    transition: 0.5s;
+    position: relative;
+   
+}
+ul li a:hover{
+    background-color:#ffffff ;
+}
+.logo{
+    font-style: normal;
+    width: 500px;
+    cursor: pointer;
+    margin-left: 40px;
+    padding: 30px 0;
+    font-size: large;
+
+}
+.content{
+    /* width: 100%; */
+    position: absolute;
+    top: 45%;
+    transform: translateX(73%);
+    font-size: larger;
+    color: #ffffff;
+    
+ }
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    width: 200px;
+    /* position:absolute;
+    top: 50%;
+    right: 45%; */
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+/* button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 50px ;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+
+}
+button:hover{
+    border: none;
+} */
